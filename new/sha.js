@@ -20,7 +20,8 @@ var SHA1 = function(file, callback) {
   }
 
   if (rushaLoaded === false) {
-    rusha = new Worker('assets/lib/rusha.js');
+   // rusha = new Worker('assets/lib/rusha.js');
+    rusha = new Worker('https://cdn.zqz.ca/lib/rusha.js');
     rushaLoaded = true;
 
     rusha.addEventListener('message', function(e) {
