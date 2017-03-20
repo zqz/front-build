@@ -1,0 +1,11 @@
+.registration .notice {
+  padding: 10px 0;
+  border-bottom: solid 1px #364737;
+  margin-bottom: 10px; }
+.registration .input-row {
+  padding-bottom: 10px; }
+  .registration .input-row .input-name {
+    display: inline-block;
+    width: 30%;
+    min-width: 170px;
+    font-weight: bold; }

@@ -1,0 +1,1 @@
+function pad(a){return 10>a?"0"+a:a}function time_zone(){return Intl.DateTimeFormat().resolvedOptions().timeZone}var localized_date=function(a){a=new Date(Date.parse(a));return a.getFullYear()+"-"+pad(a.getMonth()+1)+"-"+pad(a.getDate())+" "+pad(a.getHours())+":"+pad(a.getMinutes())+":"+pad(a.getSeconds())+" "+time_zone()};window.localized_date=localized_date;

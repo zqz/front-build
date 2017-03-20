@@ -1,0 +1,26 @@
+.table .thead {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  margin-bottom: 10px; }
+  .table .thead .th {
+    font-weight: bold;
+    flex-grow: 1; }
+.table .tbody .tr {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  border-bottom: solid 1px #00303B;
+  padding: 1px; }
+.table .tbody .td {
+  flex-grow: 1; }
+.table .tbody .tr {
+  margin-bottom: 5px; }
+  .table .tbody .tr:hover {
+    background-color: #00303B;
+    border-bottom: solid 1px #004555;
+    color: white; }
+  .table .tbody .tr:last-child {
+    border-bottom: none; }

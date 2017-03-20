@@ -1,0 +1,41 @@
+#dashboard {
+  width: 800px;
+  display: flex;
+  min-height: 10px;
+  align-content: flex-start;
+  flex-flow: row;
+  flex-wrap: wrap;
+  justify-content: space-between; }
+  #dashboard .entry {
+    width: 19%;
+    height: 100px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    background-position: center center;
+    background-color: #000608;
+    border-radius: 1px;
+    position: relative; }
+    #dashboard .entry .text {
+      position: absolute;
+      left: 0;
+      top: 40%;
+      width: 100%;
+      height: 100%;
+      text-align: center; }
+    #dashboard .entry:hover {
+      background-color: #00303B;
+      background-scale: cover; }
+      #dashboard .entry:hover .content .title {
+        display: block; }
+    #dashboard .entry .content {
+      overflow: hidden;
+      height: 100px;
+      position: relative; }
+      #dashboard .entry .content .title {
+        display: none;
+        background-color: black;
+        white-space: pre;
+        overflow: hidden;
+        position: absolute;
+        bottom: 0;
+        width: 100%; }

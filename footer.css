@@ -1,0 +1,7 @@
+#footer {
+  padding: 10px 0;
+  overflow: hidden; }
+  #footer .ws.connected {
+    color: #00ff00; }
+  #footer .ws.disconnected {
+    color: #ff0000; }

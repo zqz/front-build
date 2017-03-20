@@ -1,0 +1,1 @@
+var UploaderSettings=function(){var b=function(a){a=localStorage.getItem(a);if(null===a||"false"===a)return!1;if("true"===a)return!0};return{setRedirect:function(a){localStorage.setItem("uploader:redirect",a)},setInstant:function(a){localStorage.setItem("uploader:instant",a)},instant:function(){return b("uploader:instant")},redirect:function(){return b("uploader:redirect")}}};

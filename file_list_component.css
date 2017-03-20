@@ -1,0 +1,18 @@
+#files {
+  width: 100%;
+  min-width: 800px; }
+  #files .table .name {
+    flex-grow: 1;
+    min-width: 45%;
+    max-width: 45%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    cursor: pointer; }
+  #files .table .created_at {
+    max-width: 26%; }
+  #files .table .size {
+    max-width: 13%;
+    text-align: right !important; }
+  #files .table .options {
+    max-width: 14%; }

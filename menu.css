@@ -1,0 +1,15 @@
+.menu {
+  overflow: hidden;
+  font-weight: normal; }
+  .menu .item {
+    display: inline-block;
+    cursor: pointer;
+    padding: 0 10px;
+    text-shadow: 0 0 7px #729674;
+    height: 14px;
+    line-height: 14px; }
+    .menu .item:hover {
+      text-shadow: 0 0 12px #AFE8B3; }
+    .menu .item:last-child {
+      margin-right: 0;
+      padding-right: 0; }

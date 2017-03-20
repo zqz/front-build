@@ -1,0 +1,10 @@
+{
+	"version": 3,
+	"file": "registration.css",
+	"sources": [
+		"../src/registration.scss",
+		"../src/_mixins.scss"
+	],
+	"mappings": "AAEA,AACE,aADW,CACX,OAAO,CAAC;EACN,OAAO,EAAE,MAAO;EAChB,aAAa,EAAE,KAAK,CAAC,GAAG,CCHb,OAAO;EDIlB,aAAa,EAAE,IAAK,GACrB;;AALH,AAOE,aAPW,CAOX,UAAU,CAAC;EACT,cAAc,EAAE,IAAK,GAQtB;EAhBH,AAUI,aAVS,CAOX,UAAU,CAGR,WAAW,CAAC;IACV,OAAO,EAAE,YAAa;IACtB,KAAK,EAAE,GAAI;IACX,SAAS,EAAE,KAAM;IACjB,WAAW,EAAE,IAAK,GACnB",
+	"names": []
+}

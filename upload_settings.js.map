@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"build/upload_settings.js",
+"lineCount":1,
+"mappings":"AAAA,IAAIA,iBAAmBA,QAAQ,EAAG,CAKhC,IAAIC,EAAWA,QAAQ,CAACC,CAAD,CAAM,CACvBC,CAAAA,CAAIC,YAAAC,QAAA,CAAqBH,CAArB,CACR,IAAU,IAAV,GAAIC,CAAJ,EAAwB,OAAxB,GAAkBA,CAAlB,CAAmC,MAAO,CAAA,CAC1C,IAAU,MAAV,GAAIA,CAAJ,CAAoB,MAAO,CAAA,CAHA,CAsB7B,OAAO,CACLG,YALgBA,QAAQ,CAACC,CAAD,CAAQ,CAChCH,YAAAI,QAAA,CAtBaC,mBAsBb,CAA+BF,CAA/B,CADgC,CAI3B,CAELG,WAVeA,QAAQ,CAACH,CAAD,CAAQ,CAC/BH,YAAAI,QAAA,CAnBYG,kBAmBZ,CAA8BJ,CAA9B,CAD+B,CAQ1B,CAGLI,QAnBqBC,QAAQ,EAAG,CAChC,MAAOX,EAAA,CAXKU,kBAWL,CADyB,CAgB3B,CAILF,SAhBgBI,QAAQ,EAAG,CAC3B,MAAOZ,EAAA,CAdMQ,mBAcN,CADoB,CAYtB,CA3ByB;",
+"sources":["src/new/upload_settings.js"],
+"names":["UploaderSettings","getValue","key","v","localStorage","getItem","setRedirect","value","setItem","redirect","setInstant","instant","getInstantUpload","getRedirect"]
+}

@@ -1,0 +1,94 @@
+@charset "UTF-8";
+@keyframes scrollingBar {
+  0% {
+    background-position: 0 0; }
+  100% {
+    background-position: 800px 0; } }
+.upload-input {
+  display: none; }
+
+.checkbox-container {
+  margin-left: 10px;
+  line-height: 25px;
+  cursor: default;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none; }
+
+.checkbox {
+  margin-left: 10px;
+  position: relative;
+  top: -2px;
+  background-color: #00303B;
+  color: white;
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  vertical-align: middle;
+  cursor: pointer; }
+  .checkbox.active:after {
+    float: left;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    content: '✓';
+    font-size: 20px; }
+
+#uploader {
+  min-width: 800px; }
+  #uploader .bar .container {
+    flex-direction: row; }
+  #uploader .settings {
+    text-align: right; }
+
+.uploads .file {
+  margin-top: 5px; }
+  .uploads .file .header {
+    display: flex; }
+    .uploads .file .header .left {
+      flex-grow: 1; }
+  .uploads .file .state.finished {
+    font-weight: bold;
+    background-color: #00303B;
+    padding: 3px; }
+
+.chunks {
+  text-transform: uppercase;
+  font-size: 0.7em;
+  margin-top: 5px; }
+  .chunks .chunk {
+    color: white;
+    height: 18px;
+    box-sizing: border-box;
+    margin-bottom: 5px;
+    padding-top: 1px;
+    background-color: #00303B; }
+    .chunks .chunk.error {
+      background-color: red; }
+    .chunks .chunk .progress {
+      margin-top: 1px;
+      position: relative; }
+      .chunks .chunk .progress .text {
+        cursor: default;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        padding: 3px 5px;
+        position: absolute;
+        right: 0;
+        top: 0;
+        z-index: 1; }
+      .chunks .chunk .progress .bar {
+        z-index: 0;
+        height: 14px;
+        position: absolute;
+        transition: width 0.2s ease;
+        background-position: 0 0;
+        background: repeating-linear-gradient(135deg, #001b22, #001b22 10px, #001317 10px, #001317 20px);
+        background-size: 30px 30px;
+        animation: scrollingBar 20s linear infinite; }
+        .chunks .chunk .progress .bar.done {
+          animation: none; }

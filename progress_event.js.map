@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"build/progress_event.js",
+"lineCount":1,
+"mappings":"AAAA,IAAIA,cAAgBA,QAAQ,CAACC,CAAD,CAAIC,CAAJ,CAAe,CACzC,IAAIC,EAASF,CAAAE,OAAb,CACIC,EAAQH,CAAAG,MADZ,CAEIC,EAAOJ,CAAAK,UAEX,KAAAC,MAAA,CAAaC,QAAQ,EAAG,CACtB,MAAmBC,KAAAA,EAAnB,GAAKP,CAAL,CACS,SADT,CAOOQ,QAAA,CAFcP,CAEd,CAHeQ,IAAAC,MAAAC,EAAYR,CAAZQ,CAAmBX,CAAnBW,EAA8B,GAA9BA,CAGf,CAPP,CAOkC,IARZ,CAWxB,KAAAC,QAAA,CAAeC,QAAQ,EAAG,CACxB,IAAIC,EAAMb,CAANa,CAAeZ,CAEnB,OAAKa,MAAA,CAAMD,CAAN,CAAL,CACS,CADT,CAGSA,CANe,CAU1B,KAAAE,WAAA,CAAkBC,QAAQ,EAAG,CAC3B,MAAOC,CAAkB,GAAlBA,CAAC,IAAAN,QAAA,EAADM,SAAA,CAA+B,CAA/B,CAAP,CAA2C,GADhB,CA1BY;",
+"sources":["src/progress_event.js"],
+"names":["ProgressEvent","e","startTime","loaded","total","time","timeStamp","speed","this.speed","undefined","filesize","Math","floor","durationSeconds","percent","this.percent","val","isNaN","percentage","this.percentage","toFixed"]
+}

@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"build/upload_file_preview_component.js",
+"lineCount":1,
+"mappings":"AAAA,IAAIA,qBAAuBA,QAAQ,CAACC,CAAD,CAAO,CACxC,IAAIC,EAAYC,GAAA,CAAI,CAACC,IAAK,SAAN,CAAJ,CAAhB,CACIC,EAAOJ,CAAAI,KAAA,EADX,CAYIC,EAAcA,QAAQ,EAAG,CAC3BC,CAAAC,MAAA,CAAQN,CAAR,CACAA,EAAAO,YAAA,CACEC,IAAA,CAAK,aAAL,CADF,CAF2B,CAZ7B,CAmBIC,EAAqBA,QAAQ,CAACC,CAAD,CAAM,CACrC,IAAIC,EAAQV,GAAA,CAAI,CAACC,IAAK,eAAN,CAAJ,CACZS,EAAAC,MAAAC,gBAAA,CAA6B,MAA7B,CAAsCH,CAAAI,OAAAC,OAAtC,CAA0D,GAC1D,OAAOJ,EAH8B,CAnBvC,CAyBIK,EAAeA,QAAQ,EAAG,CAC5B,IAAIC,EAAS,IAAIC,UAEjBD,EAAAE,OAAA,CAAgBC,QAAQ,CAACC,CAAD,CAAI,CAC1BhB,CAAAC,MAAA,CAAQN,CAAR,CAEAA,EAAAO,YAAA,CAAsBE,CAAA,CAAmBY,CAAnB,CAAtB,CAH0B,CAM5BJ,EAAAK,cAAA,CAAqBvB,CAAAwB,aAAA,EAArB,CAT4B,CAsB9B,KAAAC,OAAA,CAAcC,QAAQ,EAAG,CATvB,IAAIC,EAlCIC,CACN,MAASX,CADHW,CAEN,KAAQvB,CAFFuB,CAKD,CAAExB,CAAF,CA+BayB,KAAAA,EAApB,GAAIF,CAAJ,EAIAA,CAAA,EAKA,OAAO1B,EAFgB,CAhDe;",
+"sources":["src/upload_file_preview_component.js"],
+"names":["FilePreviewComponent","file","container","div","cls","type","textPreview","H","empty","appendChild","icon","createPreviewImage","evt","image","style","backgroundImage","target","result","imagePreview","reader","FileReader","onload","reader.onload","e","readAsDataURL","originalBlob","render","this.render","handlerFunc","h","undefined"]
+}

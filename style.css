@@ -1,0 +1,151 @@
+* {
+  box-sizing: border-box; }
+
+a {
+  color: white; }
+
+input[type=text], input[type=password] {
+  background-color: #00303B;
+  color: white;
+  outline: none;
+  outline-style: none;
+  box-shadow: none;
+  border: none;
+  padding: 5px 0px;
+  display: block;
+  font-family: monospace;
+  line-height: 10px;
+  box-sizing: border-box; }
+  input[type=text]:focus, input[type=password]:focus {
+    border: none;
+    box-shadow: 0 0 20px -5px #253025; }
+
+body, html {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  min-height: 100%;
+  background-color: #001317; }
+
+html {
+  height: 100%; }
+
+body {
+  display: inline;
+  font-size: 100%;
+  font-family: monospace, sans-serif;
+  background-color: #001317;
+  color: white; }
+
+.container {
+  max-width: 800px;
+  margin: 0 auto; }
+
+#app {
+  font-size: 0.8rem;
+  display: flex;
+  width: 100%;
+  min-height: 100%;
+  position: relative;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center; }
+
+#content {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  min-width: 100%;
+  margin: 0 auto;
+  margin-bottom: 10px; }
+  #content .container {
+    flex-grow: 1;
+    flex-direction: column;
+    display: flex; }
+
+#view {
+  margin-top: 20px;
+  height: 100%;
+  display: flex;
+  flex-grow: 1; }
+
+.btn {
+  cursor: default;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-color: #00303B;
+  text-transform: uppercase;
+  border-radius: 0px;
+  line-height: 23px;
+  cursor: pointer;
+  padding: 0px 5px;
+  display: inline-block;
+  vertical-align: middle; }
+  .btn .material-icons {
+    position: relative;
+    font-size: 1.2rem;
+    top: -1px;
+    left: -1px; }
+  .btn.large {
+    font-size: 1em;
+    padding: 4px 10px;
+    text-transform: none; }
+
+.btn-group .btn {
+  margin-left: 10px; }
+  .btn-group .btn:first-child {
+    margin-left: 0; }
+
+.material-icons {
+  vertical-align: middle;
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  /* Preferred icon size */
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+  /* Support for IE. */
+  font-feature-settings: 'liga'; }
+
+.center {
+  text-align: center; }
+
+.text-tiny {
+  text-transform: uppercase;
+  font-size: 0.6em; }
+
+#paste-hack {
+  position: absolute;
+  left: -100000px;
+  top: -100000px;
+  visibility: none; }
+
+.pull-left {
+  float: left; }
+
+.pull-right {
+  float: right; }
+
+.bar {
+  width: 100%; }
+  .bar .left {
+    flex-grow: 1; }
+  .bar .container {
+    display: flex;
+    flex-direction: row; }

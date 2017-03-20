@@ -1,0 +1,19 @@
+#header {
+  background-color: #00303B;
+  color: white;
+  padding: 10px 0; }
+  #header .banner {
+    font-weight: bold;
+    margin-right: 10px;
+    cursor: default;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor: pointer; }
+  #header .menu {
+    cursor: default;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none; }

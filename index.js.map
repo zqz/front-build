@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"build/index.js",
+"lineCount":1,
+"mappings":"AAAAA,QAAA,CAAS,SAAT,CACAC,QAAAC,IAAA,CAAY,cAAZ;",
+"sources":["src/index.js"],
+"names":["setTitle","console","log"]
+}
